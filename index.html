@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WebApp - Ver 1.0</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/media-qeury.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<header>
+<div class="inner-wrap">
+<div class="logo"><img src="Images/logo-netcraft.svg"></div>
+<div class="search-bar"><input type="text" placeholder="search"></div>
+</div>
+</header>
+<div id="page">
+
+<div id="intro-box"><p class="intro-text">Json:</p> </div>
+
+<div id="boxes">
+<article class="a1">
+<div class="article-top-text">Select <br>Reporting platform</div>
+<img class="article-inside-image" src="Images/icons/action-report-new.png">
+<div class="article-bottom">
+<p class="article-text">Choose QS report</p>
+<img class="arrow ar1" src="Images/arrow.png">
+<div class="drop-down-menu drop1">
+    <ul>
+      <li><a href="http://www.google.com">Corporate</a></li>
+      <li><a href="#">Simple</a></li>
+      <li><a href="#">Business</a></li>
+    </ul>
+</div>
+</div>
+
+</article>
+<article class="a2">
+<div class="article-top-text">Select <br>Select Dashboard</div>
+<img class="article-inside-image" src="Images/icons/action-report-top.png">
+<div class="article-bottom">
+<p class="article-text">Choose Dashboard</p>
+<img class="arrow ar2" src="Images/arrow.png">
+<div class="drop-down-menu drop2">
+    <ul>
+      <li><a href="#">Corporate</a></li>
+      <li><a href="#">Simple</a></li>
+      <li><a href="#">Business</a></li>
+    </ul>
+</div>
+</div>
+</article>
+<article class="a3">
+<div class="article-top-text">Help &<br> Tutorials</div>
+<img class="article-inside-image" src="Images/icons/actions-help.png">
+<div class="article-bottom">
+<p class="article-text">Choose guide</p>
+<img class="arrow ar3" src="Images/arrow.png">
+<div class="drop-down-menu drop3">
+    <ul>
+      <li><a href="#">Corporate</a></li>
+      <li><a href="#">Simple</a></li>
+      <li><a href="#">Business</a></li>
+    </ul>
+</div>
+</div>
+</article>
+</div>
+
+<div id="main-container-wrap">
+<button class="b1 on-button">&nbsp;Quick Reports</button>
+<button class="b2 off-button">&nbsp;My Folders</button>
+<button class="b3 off-button">&nbsp;My Team Folders</button>
+<button class="b4 off-button">&nbsp;Public Reports</button>
+
+<div class="main-content">
+
+<div class="main-page1">
+<div class="gear"><img src="Images/icons/settings.png"></div>
+
+<div class="step1">
+<div class="reports">
+<form>
+<label for="rep1name">Report 1</label>
+<label for="rep1name" style="margin-left:10%">Name</label>
+<input id="rep1name" type="text"  required>
+<label for="rep1url" style="margin-left:40px">URL</label>
+<input type="url" id="rep1url" value="http://" required>
+
+</div>
+
+<div class="reports-hidden1">
+<form>
+<label for="rep4name">Report 1</label>
+<label for="rep4name" style="margin-left:10%">Name</label>
+<input id="rep4name" type="text"  required>
+<label for="rep4url" style="margin-left:40px">URL</label>
+<input type="url" id="rep4url" value="http://" required>
+
+</div>
+
+<div class="reports2">
+
+<label for="rep2name">Report 2</label>
+<label for="rep2name" style="margin-left:10%">Name</label>
+<input id="rep2name" type="text" required>
+<label for="rep2url" style="margin-left:40px">URL</label>
+<input type="url" id="rep2url" value="http://" required>
+
+</div>
+<div class="reports3">
+
+<label for="rep3name">Report 3</label>
+<label for="rep3name" style="margin-left:10%">Name</label>
+<input id="rep3name" type="text" required>
+<label for="rep3url" style="margin-left:40px">URL</label>
+<input type="url" id="rep3url" value="http://" required>
+
+</div>
+<input type="submit" id="submitNew" value="SAVE">
+</form>
+</div>
+
+<div class="step2">
+<select id="selection">
+</select>
+<br>
+<iframe src="http://www.ynet.co.il" id ="siteFrame" width="100%" height="500px" frameborder="none">
+</iframe>
+</div>
+</div>
+
+<div class="main-page2">
+<iframe src="https://freedoom.github.io/" width="100%" height="500px" frameborder="none">
+</iframe>
+</div>
+<div class="main-page3"></div>
+<div class="main-page4"></div>
+
+</div>
+
+</div>
+
+
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

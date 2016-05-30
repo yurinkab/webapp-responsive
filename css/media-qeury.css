@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+@media (max-width: 841px){
+	article{width:100%}
+	#rep1url {width:20%}
+	button {margin-right:10px;}
+	.reports label {width:200px;}
+	#rep2url{width:20%}
+	#rep3url{width:20%}
+	.
+}
+
+@media (max-width: 458px){
+	.search-bar {display:none;}
+	.logo {left:50%; margin-left:-60px;}
+}
